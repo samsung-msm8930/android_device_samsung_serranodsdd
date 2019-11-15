@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from serranodsdd device
 $(call inherit-product, device/samsung/serranodsdd/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Havoc-OS stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_serranodsdd
+PRODUCT_NAME := havoc_serranodsdd
 PRODUCT_DEVICE := serranodsdd
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
