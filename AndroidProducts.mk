@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_serranodsdd.mk
+    $(LOCAL_DIR)/rr_serranodsdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_serranodsdd-userdebug
+    rr_serranodsdd-userdebug
